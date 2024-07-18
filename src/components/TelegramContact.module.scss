@@ -1,0 +1,35 @@
+.TelegramContact{
+   
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 200px;
+        form{
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            input{
+                width: 300px;
+                height: 40px;
+                padding:5px ;
+                outline: none;
+                border: none;
+                background:white;
+                border-radius: 5px;
+                cursor: pointer;
+                color: black;
+                font-size: 18px;
+
+            }
+            button{
+                width: 150px;
+                height: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+}
